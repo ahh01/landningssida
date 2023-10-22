@@ -1,0 +1,143 @@
+body {
+  margin: 0;
+}
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: rgb(255, 255, 255);
+}
+ul {
+  display: flex;
+  list-style-type: none;
+  height: 30px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  padding: 100px;
+  font-size: x-large;
+}
+
+#img1 {
+  height: 80px;
+  width: 80px;
+}
+
+button {
+  border-radius: 0px;
+  padding: 20px;
+  margin: 20px;
+  border-radius: 30px;
+  background-color: rgb(7, 7, 7);
+  color: aliceblue;
+}
+
+.div {
+  height: 100px;
+  width: 100px;
+  background-color: rgb(235, 235, 235);
+  border: 100px;
+  border-color: black;
+}
+
+.hero-section {
+  background-color: rgb(226, 245, 245);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#btn2 {
+  background-color: rgb(0, 0, 0);
+  color: aliceblue;
+  border-radius: 30px;
+  margin: 15px;
+  padding: 10px;
+}
+
+.säljinfo {
+  background-color: rgb(143, 138, 132);
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+}
+
+#img2 {
+  display: flex;
+  height: 200px;
+  width: 200px;
+  margin: 20px;
+}
+h1 {
+  display: flex;
+  justify-content: center;
+}
+.rekomend {
+  display: flex;
+  flex-direction: row;
+  margin: 30px;
+}
+#imgJ {
+  height: 200px;
+  width: 300px;
+}
+#imgK {
+  height: 200px;
+  width: 300px;
+}
+#imgS {
+  height: 200px;
+  width: 300px;
+}
+
+.CTA {
+  background-color:#4C64FF;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 300px;
+  color: aliceblue;
+}
+
+#CTAbtn {
+  background-color: rgb(5, 26, 26);
+  border-radius: 20px;
+  padding: 10px;
+  margin: 10px;
+  height: 60px;
+}
+.footer{
+    display: flex;
+   width: 100%;
+   background-color: rgb(226, 245, 245);
+ justify-content: center;
+ justify-content: space-around;
+ font-size: large;
+}
+.column1{
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+
+}
+
+.column2{
+    display: flex;
+    flex-direction: column;
+    padding: 0px;
+    
+}
+.footer a{
+    padding: 10px;
+    margin:10px
+}
+a{
+    text-decoration:underline;
+}
+.column3{
+    padding: 30px;
+    margin: 10px;
+}
